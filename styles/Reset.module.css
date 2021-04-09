@@ -1,0 +1,12 @@
+.select {
+    position: relative;
+}
+  
+.select::after {
+content: "▼";
+font-size: 1rem;
+display: inline-block;
+top: 6px;
+right: 10px;
+position: absolute;
+}
